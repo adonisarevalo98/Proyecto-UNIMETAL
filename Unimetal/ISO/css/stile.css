@@ -1,0 +1,113 @@
+#login {
+	margin-top: 4%;
+	margin-left: 32%;
+	margin-right: 32%;
+}
+#login form{
+	width: 400px;
+	text-align: center;
+
+}
+#logindatos{
+	margin-left: 120px;
+	border: none;
+	margin-top: 5px;
+	border-radius: 0px;
+
+}
+#login .img{
+	margin: 18px;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 0px;
+}
+.terminos{
+	display: inline;
+
+}
+p.terminos{
+	font-size: 11px;
+	color: black;
+
+}
+#login input{
+	width: 300px;
+	height: 35px;
+	margin: 10px;
+}
+#login input.terminos{
+	width: 20px;
+	height: 20px;
+}
+.control{
+	padding-left: 15%;
+	font-size: 18px; 
+}
+#boton{
+	background: black;
+	border-radius: 15px;
+	width: 30%;
+	height: 80%;
+	color: #fff;
+	font-family: Century Gothic;
+	margin-top: 3%;
+	margin-left: 40%;
+}
+.formdatos{
+	margin-top: 5%;
+	margin-left: 8%;
+	color: #fff;
+}
+.formdatos form{
+	padding: 5px;
+	display: flexbox;
+	width: 1115px;
+	height: 500px;
+	border-radius: 15px;
+	padding: 22px;
+
+}
+.formdatos fieldset{
+	font-family: Century Gothic;
+	padding: 12px;
+	float: left;
+	width: 25%;
+	margin-top: 5px;
+	border-radius: 10px;
+	height: 332px;
+	margin-left: 13px;
+}
+.formdatos img{
+	float: left;
+	width: 90px;
+	height: 70px;
+	border-radius: 5px;
+	margin: 0px 22px;
+}
+.formdatos button{
+	margin-top: 3px;
+	margin-right: 500px;
+}
+.formdatos p{
+	margin-top: 15%;
+	padding-bottom: 15%;
+	font-size: 48px;
+	text-align: center;
+}
+form{
+	font-family: Century Gothic;
+	
+}
+[required]{
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px #808080;
+}
+:invalid{
+	border-radius: 15px;
+	border-color: black;
+}
+h1{
+	padding-top: 6px;
+	color: #fff;
+}

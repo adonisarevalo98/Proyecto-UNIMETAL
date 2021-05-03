@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="no--js">
+<head>
+<meta charset="UTF-8"/>
+
+	<title>Compras</title>
+   <link rel="stylesheet" type="text/css" href="../css1/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../js1/bootstrap.min.js"></script>
+    <style type="text/css"> .navbar-brand {font-size: 2em;} .active{font-size: 5em;}</style>
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+      </button>
+      <a class="navbar-brand" href="#">MG Comunicaciones</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../php/login.php">PERFIL<span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="../php/Activar_Desactivar.php">ACTIVAR-DESACTIVAR</a></li>
+        <li class="active"><a href="../html/Empleado.php">REGISTRAR EMPLEADO</a></li>
+        <li class="dropdown">
+
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> DETALLES <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+
+            <li class="active"><a href="../php/MostrarArticulos.php">MOSTRAR ARTICULOS</a></li>
+            <li class="active"><a href="../php/MostrarCategorias.php">MOSTRAR CATEGORIAS</a></li>
+            <li class="active"><a href="../php/MostrarClientes.php">MOSTRAR CLIENTES</a></li>
+            
+            <li class="active"><a href="../php/MostrarProveedores.php">MOSTRAR PROVEEDORES</a></li>
+         
+          </ul>
+        </li>
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">CERRAR SESION</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br>
+<br>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-5 col-sm-offset-5" style=" -webkit-box-shadow: 0px 0px 15px -2px rgba(33,33,33,1);
+-moz-box-shadow: 0px 0px 15px -2px rgba(33,33,33,1);
+box-shadow: 0px 0px 15px -2px rgba(33,33,33,1); padding:4%; margin:0 auto; border-radius:20px; background:#eeeeee; margin-left:30%;">
+
+<h1 class="leter">Compras</h1>
+<form class="form-horizontal" method="POST" action="../php/producto.php" enctype="multipart/form-data">
+
+<div class="form-group">
+<label><h3 class="leter">producto</h3></label>
+<input class="form-control" type="text"  name="pro" placeholder="Ingrese nombre del artículo" required="Campo requerido">
+</div>
+<div class="form-group">
+<label><h3 class="leter">Unidades adquiridas</h3></label>
+<input class="form-control" type="text"  name="uni" placeholder="Ingrese las unidades del artículo adquirido" required="Campo requerido">
+</div>
+<div class="form-group">
+<label><h3 class="leter">Precio por unidad</h3></label>
+<input class="form-control" type="text"  name="preci" placeholder="Ingrese el precio del artículo" required="Campo requerido">
+</div>
+
+<input type="submit" class="btn btn-lg btn-warning btn-block" name="registro"  value="Enviar" />
+
+
+</form>
+</div>
+<br>
+<br>
+</body>
+</html>

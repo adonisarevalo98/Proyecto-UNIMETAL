@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+font-family: 'Dosis Light';
+font-style: normal;
+font-weight: normal;
+src: local('Dosis Light'), url('../Dosis-Light.woff') format('woff');
+}
+
+body{
+    background: url(../img/fondologin.jpg);
+   
+   
+    background-repeat: no-repeat;
+  
+}
+
+label{
+    color: #fff;
+    font-size: 25px;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(50, 42, 44, 0.7);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 7%;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-family: 'Dosis Light', sans-serif;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Dosis Light', sans-serif;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 1s;
+}
+
+a:hover{
+    transition-duration: 1s;
+    color: #0b8ee1;
+}
+
+#boton{
+    background: #4C4C4C;
+    color: #fff;
+    padding: 20px;
+    transition-duration: 1s;
+}
+
+#boton:hover{
+    color: #0b8ee1;
+    cursor: pointer;
+    -moz-box-shadow: 7px 6px 15px #000000;
+    -webkit-box-shadow: 7px 6px 15px #000000;
+    box-shadow: 7px 6px 15px #000000;
+    transition-duration: 1s;
+}
+
+@media only screen and (max-width: 504px){
+    form{
+        width: 100%;
+    }
+}
+
+input:required:invalid {
+ 
+border: 1px solid red;
+ 
+}
+ 
+input:required:valid {
+ 
+border: 1px solid green;
+ 
+}
+
+.msg{
+    width: 35%;
+    margin: 20px 10px;
+}
+
+#contacto{
+    float: right;
+    color: #fff;
+    padding-right: 5px;
+    padding-top: 70px;
+    font-size: 40px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 450px){
+    #contacto{
+        padding-right: 0px;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #contacto{
+        padding-right: 0px;
+        font-size: 30px;
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 369px){
+    #contacto{
+        padding-right: 0px;
+        font-size: 27px;
+        padding-top: 55px;
+    }
+}
+
+@media only screen and (max-width: 339px){
+    #contacto{
+        padding-right: 0px;
+        font-size: 23px;
+        padding-top: 55px;
+    }
+}

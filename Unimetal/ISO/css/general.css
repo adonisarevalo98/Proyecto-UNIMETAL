@@ -1,0 +1,76 @@
+.navbar-brand {font-size: 2em;} .active{font-size: 5em;} .custom-input-file {
+
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.custom-input-file .input-file {
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 10000px;
+    border: 10000px solid transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    cursor: pointer;
+
+}
+
+#caja6{
+    margin: 0 auto;
+    border: 1.5px solid #E0E0E0;
+    width: 100%;
+}
+
+#caja6:hover{
+  border: 1.5px solid #FDB45E;
+}
+
+
+#encabezado6{
+    
+    color: white;
+    background-color: #0277BD;
+    text-align: center;
+    padding: 25px;
+
+}
+
+
+#cuerpo{
+    padding: 18px;
+    text-align: center;
+    text-align: justify;
+}
+
+.thumb {
+     
+     margin: 5%;
+     width: 250px;
+     height: 200px;
+           
+}
+
+.img-foto{
+
+    height: 80px;
+    width: 80px;
+    margin: 10%;
+
+}
+
+@media screen and (max-width: 1000px){
+    div#contenedor{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.menu{
+    margin: 0 auto;
+}

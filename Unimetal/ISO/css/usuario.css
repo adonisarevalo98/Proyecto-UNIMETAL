@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Cuprum);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Asap);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+*{
+    margin: 0;
+    padding: 0;
+}
+.fondo{
+    background-image: url(../img/dark.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Dosis', sans-serif;
+    transition: background-color .5s;
+}
+.content{
+    height: 100px;
+    overflow: auto;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+    padding: 1%; 
+    font-size: 180%;
+    text-align: center
+}
+#info{
+    background: rgba(255,255,255,.7);
+    height: auto;
+    width: 100%;
+    max-width: 655px;
+    color: black;
+    font-size: 22px;
+    padding: 50px;
+    margin: 25px auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+#info:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#user{
+    display: block;
+    margin: 20px auto;
+}
+#name{
+ margin-left: 15px;
+}

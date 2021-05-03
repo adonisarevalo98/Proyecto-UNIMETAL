@@ -1,0 +1,81 @@
+.fondo{
+	 background-image: url(../img/dark.png);
+}
+#nav{
+	margin-left: 180px;
+}	
+#navs{
+	margin-left: 130px;
+}
+#navx{
+	margin-left: 130px;
+}
+ul li {
+background:#000;
+list-style: none;
+height: 44px;
+float:left;
+text-align: center;
+padding:10px 5px;
+
+}
+ul li a {
+	position: center;
+width: 175px;
+height: 40px;
+line-height: 53px;
+border-bottom: 4px solid #636393;
+padding:0px;
+color: #fff;
+font-size:18px;
+font-weight:lighter;
+text-align:center;
+text-decoration: none;
+display: block;
+-webkit-transition: .2s all linear;
+-moz-transition: .2s all linear;
+-o-transition: .2s all linear;
+transition: .2s all linear;
+}
+li:nth-child(1) a {
+border-color: #70A582;
+}
+li:nth-child(2) a {
+border-color: #586859;
+}
+li:nth-child(3) a {
+border-color: #A2A7A2;
+}
+li:nth-child(4) a {
+border-color: #609491;
+}
+li:nth-child(5) a {
+border-color: #87A248;
+}
+li:nth-child(6) a {
+border-color: gray;
+}
+li:nth-child(1) a:hover {
+border-bottom: 35px solid #70A582;
+height: 9px;
+}
+li:nth-child(2) a:hover {
+border-bottom: 35px solid #586859;
+height: 9px;
+}
+li:nth-child(3) a:hover {
+border-bottom: 35px solid #A2A7A2;
+height: 9px;
+}
+li:nth-child(4) a:hover {
+border-bottom: 35px solid #609491;
+height: 9px;
+}
+li:nth-child(5) a:hover {
+border-bottom: 35px solid #87A248;
+height: 9px;
+}
+li:nth-child(6) a:hover {
+border-bottom: 35px solid gray;
+height: 9px;
+}
